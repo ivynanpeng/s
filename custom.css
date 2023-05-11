@@ -1,0 +1,305 @@
+/* Method to declare your own fonts */
+@font-face {
+    font-family: Oswald;
+    src: url(../assets/fonts/Oswald/static/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../assets/fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: cocaColaFont;
+    src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Oswald', sans-serif;
+    }
+
+body {
+background-color: rgb(255, 255, 255);
+}
+.main_contents {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.navbar_coca_cola {
+    background-color: #760003; 
+    border-width: 0px;
+    min-height: 70px;
+}
+
+.navbar_coca_cola .navbar-brand {
+    color: rgb(245, 235, 235);
+ }
+    
+
+.navbar_coca_cola .navbar-brand:hover {
+    color: rgb(198, 198, 198);
+}
+
+.navbar_coca_cola .navbar-nav > li > a {color: white;  
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover, 
+.navbar_coca_cola .navbar-nav > li > a:focus {
+    color: green;  
+}
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+.navbar_coca_cola .navbar-nav .nav-item > .active, 
+.navbar_coca_cola .navbar-nav > .active > a:hover, 
+.navbar_coca_cola .navbar-nav > .active > a:focus {
+    color:  #760003; 
+    background-color: #3399ff; 
+}
+
+.navbar_coca_cola .navbar-nav > li > a:hover, 
+.navbar_coca_cola  .navbar-nav > li > a:focus {
+    color: white;  
+  
+}
+
+.navbar_coca_cola .navbar-toggler {
+    outline: none !important;
+}
+
+.logo {
+    margin-top: 3px;
+    }
+    .logo h1 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+    }
+    .logo h2 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+    }
+    .logo h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+    }
+    .logo p {
+    font-size: 7px; 
+    margin-top: 22px; 
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+    }
+#main_3d_image {
+    background-image: url(../assets/images/main_3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+        }
+#main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+#main_text h2 {
+    color: rgba(0,102,153,1);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+
+}
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+} 
+
+.card {
+        border: 0px solid rgba(0,0,0,.125);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+ }
+
+
+ .footer {
+    color:  #030303;
+    background-color: #760003; 
+     height: 50px;
+ }
+ .navbar-text > a {
+     font-size: 10px;
+ }
+ .navbar-text > p {
+     color:white;
+     font-size: 10px;
+ }
+ .copyright {
+     padding-top: 20px;
+ }
+ .social {
+     padding-top: 7px;
+ }
+ .dropdown-menu {
+    text-align: -webkit-left;
+    background-color: #ffffff;
+    margin-top: 20px; /* Experiment to move the dropdown menu down */
+    }
+    .dropdown-menu .dropdown-item {
+    color: #000000;
+    }
+    .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    background-color: #6b6a6a;}
+
+
+
+
+.fa-twitter-square:before {
+content: "\f081";
+color: green;
+font-size: 1em;
+}
+.fa-github-square:before {
+content: "\f092";
+color: yellow;
+font-size: 1em;
+}
+.fa-google-plus-square:before {
+content: "\f0d4";
+color: blue;
+font-size: 1em;
+}
+.fa-facebook-square:before {
+content: "\f082";
+color: red;
+font-size: 1em;}
+
+
+.img-thumbnail {
+    padding: 0.25rem;
+    margin-top: 5px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    }
+    .gallery .img-thumbnail{
+        background-color: #760003;
+        padding: 0.25rem;
+        margin: 5px;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 100%;
+        height: auto;
+    }
+ 
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+color: #760003; /* Font color for active font */
+background-color: #fefefe; /* Blue color for background */
+border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs .nav-link {
+    color: white;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    }
+    /* Added this to emulate the nav-bar link styling */
+    .nav-tabs .nav-link:hover {
+        color: white;
+    background-color: rgb(51, 68, 68);
+    border: 1px solid transparent;
+    }
+    .camera-btns {
+        /* background-color: rgba(0, 0, 255, 0.3); */
+        border-color: black;
+        border-style: solid;
+        border-width: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        }
+        .camera-btns > p {
+        font-size: 15px;
+        color: red;
+        padding-left: 0px;
+        font-weight: 900;
+        }
+        .camera-font {
+        font-weight: 400;
+        color: white;
+        }
+        .camera-font:hover {
+        font-weight: 700;
+        color: rgb(3, 3, 3);
+        }
+        .btn-responsive {
+        padding: 6px 10px;
+        font-size: 90%;
+        line-height: 1.2;
+        white-space: normal !important;
+        }
+        .gallery-header {
+            color: white;
+            }
+            .gallery-header:hover {
+            color: green;
+            border: 1px solid transparent;
+            }
+            .model3D {
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+ 
+            padding: 2px;
+            height: 300px;
+            
+            }
+X3D, x3d {
+    margin: 0;
+    padding: 0;
+
+position: relative;
+float: left;
+cursor: pointer;
+width: 100%;
+height: 100%;
+
+}
+.card2 {
+margin-top: 10px;
+margin-bottom: 10px;
+margin: auto;
+background-color: rgb(63, 63, 63);
+height: auto;
+}
